@@ -2,17 +2,10 @@
 
 > TCP transport for [Winston](https://github.com/winstonjs/winston)
 
-[![Build Status][travis-image]][travis-url]
-[![Downloads][npm-downloads]][npm-url]
-[![Code Climate][codeclimate-quality]][codeclimate-url]
-[![Coverage Status][codeclimate-coverage]][codeclimate-url]
-[![Dependency Status][dependencyci-image]][dependencyci-url]
-[![Dependencies][david-image]][david-url]
-
 ## Install
 
 ```bash
-npm install --only=production --save winston-tcp
+npm install --only=production --save winston-tcp-infinite
 ```
 
 ## API
