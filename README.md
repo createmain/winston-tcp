@@ -59,29 +59,13 @@ Name                | Description                                               
 `json`              | If `true`, messages will be logged as JSON                                    | `false`
 `timestamp`         | flag indicating if we should prepend output with timestamps                   | `false`
 `formatter`         | a custom formatter (see Winston docs)                                         | none
+`reconnectAttempts` | Reconnection apttemp count (0 is infinite)                                    | 100
+
 
 ---
-> :copyright: [ahmadnassri.com](https://www.ahmadnassri.com/)  · 
-> License: [ISC][license-url]  · 
-> Github: [@ahmadnassri](https://github.com/ahmadnassri)  · 
-> Twitter: [@ahmadnassri](https://twitter.com/ahmadnassri)
+> License: [ISC]
+> Github: [@createmain](https://github.com/createmain)  · 
 
-[license-url]: http://choosealicense.com/licenses/isc/
-[license-image]: https://img.shields.io/github/license/ahmadnassri/winston-tcp.svg?style=flat-square
-
-[travis-url]: https://travis-ci.org/ahmadnassri/winston-tcp
-[travis-image]: https://img.shields.io/travis/ahmadnassri/winston-tcp.svg?style=flat-square
-
-[npm-url]: https://www.npmjs.com/package/winston-tcp
-[npm-version]: https://img.shields.io/npm/v/winston-tcp.svg?style=flat-square
-[npm-downloads]: https://img.shields.io/npm/dm/winston-tcp.svg?style=flat-square
-
-[codeclimate-url]: https://codeclimate.com/github/ahmadnassri/winston-tcp
-[codeclimate-quality]: https://img.shields.io/codeclimate/github/ahmadnassri/winston-tcp.svg?style=flat-square
-[codeclimate-coverage]: https://img.shields.io/codeclimate/coverage/github/ahmadnassri/winston-tcp.svg?style=flat-square
-
-[david-url]: https://david-dm.org/ahmadnassri/winston-tcp
-[david-image]: https://img.shields.io/david/ahmadnassri/winston-tcp.svg?style=flat-square
-
-[dependencyci-url]: https://dependencyci.com/github/ahmadnassri/winston-tcp
-[dependencyci-image]: https://dependencyci.com/github/ahmadnassri/winston-tcp/badge?style=flat-square
+[npm-url]: https://www.npmjs.com/package/winston-tcp-infinite
+[npm-version]: https://img.shields.io/npm/v/winston-tcp-infinite.svg?style=flat-square
+[npm-downloads]: https://img.shields.io/npm/dm/winston-tcp-infinite.svg?style=flat-square
